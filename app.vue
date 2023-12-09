@@ -1,6 +1,7 @@
 <template>
-  <div class="bg-black text-white h-screen">
+  <div class="bg-black text-white h-full">
     <Header />
+    <Banner />
   </div>
 </template>
 
