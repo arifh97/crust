@@ -2,6 +2,7 @@
   <div class="bg-black text-white h-full">
     <Header />
     <Banner />
+    <Footer />
   </div>
 </template>
 

@@ -11,7 +11,7 @@
                     <nav>
                         <ul class="flex flex-wrap items-center justify-center">
                             <li v-for="(item,index) in menus" :key="index">
-                                <NuxtLink to="/" class="block capitalize py-2 px-5 font-normal text-base text-white text-opacity-60 hover:text-primary-700 hover:text-opacity-100">{{ item }}</NuxtLink>
+                                <NuxtLink to="/" class="block capitalize py-2 px-5 font-normal text-base text-white text-opacity-60 transition-all duration-300 hover:text-primary-full hover:text-opacity-100">{{ item }}</NuxtLink>
                             </li>
                         </ul>
                     </nav>
