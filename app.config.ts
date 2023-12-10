@@ -4,6 +4,13 @@ export default defineAppConfig({
       primary: 'orange',
       button:{
         "base": "",
+      },
+      input:{
+        default:{
+          size:'xl',
+          padding: 'p-4',
+
+        }
       }
     }
   })
