@@ -1,8 +1,8 @@
 <template>
     <footer class="py-[60px]">
-        <div class="container">
-            <div class="flex">
-                <div class="w-5/12">
+        <div class="container px-3">
+            <div class="flex flex-wrap -mx-3">
+                <div class="w-5/12 px-3">
                     <NuxtLink to="/">
                         <img src="/img/logo.png" alt="" class="w-[99px] h-6" />
                     </NuxtLink>
@@ -13,13 +13,13 @@
                         </li>
                     </ul>
                 </div>
-                <div class="w-7/12">
+                <div class="w-7/12 px-3">
                     <div class="flex flex-wrap">                        
                         <div class="w-3/12" v-for="item in footerMenu" :key="item.title">
                             <h5 class="mb-5 text-xl font-semibold text-white">{{ item.title }}</h5>
                             <ul>
                                 <li v-for="(submenu, index) in item.link" :key="index">
-                                    <NuxtLink to="/" class="text-base font-normal text-white text-opacity-70 transition-all duration-500 hover:text-primary-full mb-4 block">{{submenu}}</NuxtLink>
+                                    <NuxtLink to="/" class="text-base font-normal text-white text-opacity-70 transition-all duration-500 hover:text-primary-500 mb-4 block">{{submenu}}</NuxtLink>
                                 </li>
                             </ul>
                         </div>
@@ -31,7 +31,7 @@
 </template>
 
 <script setup>
-    const social = [
+    const social = reactive([
         {
             title: 'tw',
             svg: `<svg width="20" height="17" viewBox="0 0 20 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -64,9 +64,9 @@
     `,
             url: 'https://www.globe.com'
         },
-    ];
+    ]);
 
-    const footerMenu = [
+    const footerMenu = reactive([
         {
             title: 'Website',
             link: ['Home', 'About', 'Blog', 'Contact']
@@ -83,6 +83,6 @@
             title: 'Support',
             link: ['Privacy Policy', 'Terms of Use', 'Help Center'],
         },
-    ];
+    ]);
 </script>
 <style lang="scss" scoped></style>
