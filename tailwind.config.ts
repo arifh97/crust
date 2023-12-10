@@ -14,8 +14,12 @@ export default <Partial<Config>>{
           500: '#FFA500',
         //   600: '#00A155',
           700: '#FA8C16',
-        }
-      }
+        },
+      },
+      
+      backgroundGradient:{
+        'my-gradient':'linear-gradient(162deg, rgba(255, 255, 255, 0.10) 4.68%, rgba(255, 255, 255, 0.00) 87.99%)',
+       } 
     }
   }
 }

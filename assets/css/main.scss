@@ -20,7 +20,22 @@ h5,
 h6 {
     font-family: 'Roboto Mono', monospace;
 }
+h2, h3,h4,h5,h6{
+    font-weight: 500;
+    text-transform: capitalize;
 
+}
+h2{
+    font-size: 52px;
+    line-height: 120%;
+}
+h3{
+    font-size: 48px;
+}
+h4{
+    font-size: 28px;
+    line-height: 120%;
+}
 // color variables
 .heading {
     & select {
