@@ -8,6 +8,8 @@
     <Service />
     <Ipfs />
     <Products />
+    <!-- newer -->
+    <Contact/>
     <Footer />
   </div>
 </template>
