@@ -17,9 +17,6 @@ export default <Partial<Config>>{
         },
       },
       
-      backgroundGradient:{
-        'my-gradient':'linear-gradient(162deg, rgba(255, 255, 255, 0.10) 4.68%, rgba(255, 255, 255, 0.00) 87.99%)',
-       } 
-    }
+    },
   }
 }

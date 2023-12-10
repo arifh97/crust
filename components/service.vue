@@ -1,14 +1,14 @@
 <template>
-    <div class="container px-3">
+    <div class="container px-3 service__area">
         <div class="flex flex-wrap -mx-3">
             <div class="w-full px-2">
                 <SectionTitle title="Dstorage for Every Use Case" />
             </div>
-            <div class="w-4/12 px-3" v-for="item in services" :key="item.id">
-                <NuxtLink to="/" class="mb-14">
+            <div class="w-4/12 px-3 ss_box" v-for="item in services" :key="item.id">
+                <NuxtLink to="/" class="mb-14 single__service_box relative z-[1] inline-block">
                     <div v-html="item.icon" />
-                    <h4> {{ item.title }} </h4>
-                    <p class="mb-1">{{ item.des }}</p>
+                    <h4 class="mb-4 mt-9 transition ease-in-out duration-500"> {{ item.title }} </h4>
+                    <p class="mb-1 text-white text-opacity-60 text-[16px]">{{ item.des }}</p>
                 </NuxtLink>
             </div>
         </div>

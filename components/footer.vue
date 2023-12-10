@@ -1,13 +1,13 @@
 <template>
     <footer class="py-[60px]">
         <div class="container px-3">
-            <div class="flex flex-wrap -mx-3">
+            <div class="flex flex-wrap -mx-3 get__in__touch">
                 <div class="w-5/12 px-3">
                     <NuxtLink to="/">
-                        <img src="/img/logo.png" alt="" class="w-[99px] h-6" />
+                        <img src="/img/logo.png" alt="" class="w-[138px] mb-6" />
                     </NuxtLink>
-                    <p class="text-lg text-white text-opacity-60">With Crust data and storage resources can be made ownable like any other on-chain asset. Gain full control over your data</p>
-                    <ul class="flex items-center flex-wrap">
+                    <p class="text-lg text-white text-opacity-60 mb-6">With Crust data and storage resources can be made ownable like any other on-chain asset. Gain full control over your data</p>
+                    <ul class="flex items-center flex-wrap social__icons">
                         <li v-for="(item,index) in social" :key="index">
                             <NuxtLink :to=item.url target="_blank"><span v-html="item.svg"></span></NuxtLink>
                         </li>
