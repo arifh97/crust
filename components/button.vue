@@ -6,9 +6,7 @@
 
 <script setup>
 const props =defineProps('class');
-onMounted(() => {
-    console.log(props);
-})
+
 </script>
 
 <style lang="scss" scoped>

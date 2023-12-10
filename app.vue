@@ -6,6 +6,8 @@
     <FeatureUpon />
     <Brand />
     <Service />
+    <Ipfs />
+    <Products />
     <Footer />
   </div>
 </template>
