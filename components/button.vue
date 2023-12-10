@@ -1,5 +1,5 @@
 <template>
-    <UButton size="sm" :class="[props.class, 'h-12 justify-center rounded-md transition-all duration-500']">
+    <UButton size="sm" :class="[props.class, 'h-[50px] justify-center rounded-md transition-all duration-500']">
         <slot></slot>
     </UButton>
 </template>
