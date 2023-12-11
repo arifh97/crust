@@ -41,7 +41,7 @@ h4{
     line-height: 120%;
 }
 
-.featureupon h4, .single__service_box h4, .brand_area h2, .service__area h2, .single__ipfs__item h4, .sp__box h4, .products__area .section__title h2, .content__form__area h3, .product__tab h2, .product__tab li h4{
+.featureupon h4, .single__service_box h4, .brand_area h2, .service__area h2, .single__ipfs__item h4, .sp__box h4, .products__area .section__title h2, .content__form__area h3, .product__tab h2, .product__tab li h4, .ixeo__tab__content h3{
     font-family: 'Roboto', sans-serif;
 }
 
@@ -165,6 +165,21 @@ h4{
         border: 1px solid rgba(255, 255, 255, 0.10);
         border-top: 0;
         margin-top: -10px;
+        & .tab__content__in_list {
+            & li:before{
+                position: absolute;
+                content: "";
+                left: 0;
+                top: 12px;
+                width: 14px;
+                height: 14px;
+                background-color: #fff;
+                border-radius: 50%;
+            }
+           & li:last-child{
+                margin-bottom: 10px;
+            }
+        }
     }
 }
 
