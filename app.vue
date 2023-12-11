@@ -8,6 +8,7 @@
     <Service />
     <Ipfs />
     <Products />
+    <ProductsTab />
     <!-- newer -->
     <Contact/>
     <Footer />

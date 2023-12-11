@@ -41,7 +41,7 @@ h4{
     line-height: 120%;
 }
 
-.featureupon h4, .single__service_box h4, .brand_area h2, .service__area h2, .single__ipfs__item h4, .sp__box h4, .products__area .section__title h2, .content__form__area h3{
+.featureupon h4, .single__service_box h4, .brand_area h2, .service__area h2, .single__ipfs__item h4, .sp__box h4, .products__area .section__title h2, .content__form__area h3, .product__tab h2, .product__tab li h4{
     font-family: 'Roboto', sans-serif;
 }
 
@@ -272,25 +272,94 @@ h4{
     }
 }
 
-
+/*=================================
+========== Product Tab Area ============
+===================================*/
+.product__tab{
+    & ul{
+        position: relative;
+        z-index: 1;
+        &:before{
+            position: absolute;
+            content: "";
+            left: 0;
+            top: 0;
+            width: 1.93px;
+            height: 100%;
+            border-radius: 10px;
+            opacity: 0.1;
+            background: #D9D9D9;
+            z-index: -1;
+        }
+        & li{
+            position: relative;
+            z-index: 1;
+            max-width: 482px;
+            cursor: pointer;
+            transition: all .3s ease-in-out;
+            & h4{
+                font-weight: 400;
+            }
+            
+        }
+        & li.nav-item{
+            padding:15px 30px 15px 25px;
+        }
+        & li.active{
+            background: linear-gradient(109deg, rgba(250, 140, 22, 0.10) 18.39%, rgba(255, 255, 255, 0.00) 88.37%);
+            transition: all .3s ease-in-out;
+            &:before{
+                position: absolute;
+                content: "";
+                left: 0;
+                top: 0;
+                width: 2px;
+                height: 100%;
+                border-radius: 50px;
+                background: #FA8C16;
+                z-index: -1;
+            }
+        }
+    }
+    
+}
 
 /*=================================
 ========== Footer Area ============
 ===================================*/
-.social__icons li a{
-    background: linear-gradient(155deg, #1A1A1A 51.7%, #000 127.92%);
-    stroke-width: 0.736px;
-    stroke: #FFF;
-    width: 44.182px;
-    height: 44.182px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 22px;
-    margin-bottom: 22px;
-    transition: all .3s ease-in-out;
-    &:hover{
-        background: linear-gradient(155deg, #FA8C16 51.7%, #000 127.92%);
+.footer_area{
+    position: relative;
+    z-index: 1;
+    padding-top: 80px;
+    &:before{
+        position: absolute;
+        content: "";
+        top: -30%;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 130%;
+        background-image: url('/public/img/footer-bg.png');
+        background-size: cover;
+        background-position: bottom left;
+        background-repeat: no-repeat;
+        z-index: -1;
+    }
+    & .social__icons li a{
+        background: linear-gradient(155deg, #1A1A1A 51.7%, #000 127.92%);
+        stroke-width: 0.736px;
+        stroke: #FFF;
+        width: 44.182px;
+        height: 44.182px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 22px;
+        margin-bottom: 22px;
+        transition: all .3s ease-in-out;
+        &:hover{
+            background: linear-gradient(155deg, #FA8C16 51.7%, #000 127.92%);
+        }
     }
 }

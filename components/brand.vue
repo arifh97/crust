@@ -4,7 +4,9 @@
             <div class="w-full">
                 <SectionTitle title="Your omnichain solution for decentralized storage in web3">
                     <div class="w-full grid grid-cols-6 gap-x-14 gap-y-10 justify-center mt-12">
-                    <div v-for="n in 12" :key="n" class="text-center"><img :src="`/img/brand/${n}.png`" class="w-full" alt=""></div>
+                    <div v-for="n in 12" :key="n" class="text-center">
+                        <img :src="`/img/brand/${n}.png`" class="w-full" alt="">
+                    </div>
                 </div>
                 </SectionTitle>
             </div>
