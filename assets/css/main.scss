@@ -44,7 +44,11 @@ h4{
 .featureupon h4, .single__service_box h4, .brand_area h2, .service__area h2, .single__ipfs__item h4, .sp__box h4, .products__area .section__title h2, .content__form__area h3, .product__tab h2, .product__tab li h4, .ixeo__tab__content h3{
     font-family: 'Roboto', sans-serif;
 }
-
+@media(max-width:768px){
+    h2{
+        font-size: 25px;
+    }
+}
 /*=====================================
 ========== Global Style End ===========
 =======================================*/

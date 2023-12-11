@@ -5,12 +5,12 @@
                 <SectionTitle title="Empowering Data through Decentralization" subtitle="With decentralization at its core Crust Network is a purpose built layer 1 blockchain providing composable cloud storage solutions for developers, builders and end-users of all ecosystems." />
             </div>
             <div class="flex -mx-3 px-3 flex-wrap">
-                <div class="w-6/12 px-3" v-for="(item) in features" :key="item.id">
-                    <div class="flex items-center flex-wrap mb-[139px]">
-                        <div class="decentralization_icon_box relative z-[1] w-[180px] h-[196px] flex items-center justify-center rounded-[10px]" v-html="item.icon"></div>
+                <div class="w-full lg:w-6/12 px-3" v-for="(item) in features" :key="item.id">
+                    <div class="flex items-center flex-wrap mb-[37px] md:mb-[70px] lg:mb-[139px]">
+                        <div class="decentralization_icon_box relative z-[1] w-[127px] md:w-[180px] h-[165px] md:h-[196px] flex items-center justify-center rounded-[10px] p-[25px] " v-html="item.icon"></div>
                         <div class="w-[calc(100%-180px)] pl-6">
-                            <h4 class="mb-3 leading-9 text-white text-opacity-90">{{ item.title }}</h4>
-                            <p class="text-[#B7B7B7] max-w-[332px]">{{ item.des }}</p>
+                            <h4 class="mb-3 leading-9 text-white text-opacity-90 text-[20px] md:text-[28px]">{{ item.title }}</h4>
+                            <p class="text-[#B7B7B7] max-w-[332px] text-[14px] md:text-[18px]">{{ item.des }}</p>
                         </div>
                     </div>
                 </div>
