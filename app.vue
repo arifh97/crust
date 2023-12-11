@@ -5,12 +5,13 @@
     <Featured />
     <FeatureUpon />
     <Brand />
+    <Ixeo />
     <Service />
     <Ipfs />
     <Products />
     <ProductsTab />
     <!-- newer -->
-    <Contact/>
+    <Contact />
     <Footer />
   </div>
 </template>
