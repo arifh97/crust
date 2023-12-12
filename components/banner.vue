@@ -1,5 +1,5 @@
 <template>
-    <div class="pt-[180px] md:pt-[235px] pb-[80px] md:pb-[200px] bg-[url('/img/hero-banner.png')] bg-cover bg-left-bottom reactive">
+    <div class="pt-[140px] md:pt-[235px] pb-[80px] md:pb-[200px] bg-[url('/img/hero-banner.png')] bg-cover bg-left-bottom reactive">
         <img src="/img/hero-banner-after.png" alt="" class="w-full h-auto absolute top-0 left-0 z-0">
         <div class="container px-3">
             <div class="flex -mx-3 justify-center">

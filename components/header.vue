@@ -29,8 +29,8 @@
                         </ul>
                     </nav>
                 </div>
-                <div class="lg:w-2/12 text-right hidden lg:block">
-                    <USelect v-model="lang" :options="langs" class="w-max ml-auto uppercase" color="primary" variant="none" />
+                <div class="lg:w-2/12 text-right hidden lg:block cursor-pointer">
+                    <USelect v-model="lang" :options="langs" class="w-max ml-auto uppercase cursor-pointer" color="primary" variant="none" />
                 </div>
             </div>
         </div>

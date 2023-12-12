@@ -1,5 +1,5 @@
 <template>
-    <div class="container px-3 brand_area pt-16 pb-20 md:pt-0">
+    <div class="container px-3 brand_area pt-8 pb-20 md:pt-0">
       <div class="flex -mx-3 justify-center">
         <div class="w-full">
           <SectionTitle title="Your omnichain solution for decentralized storage in web3" />

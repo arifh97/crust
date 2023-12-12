@@ -131,10 +131,10 @@ h4{
     position: absolute;
     content: "";
     left: -140px;
-    top: 50%;
+    top: 40px;
     width: 136px;
     height: 12px;
-    margin-top: -6px;
+    margin-top: 0px;
     background-image: url('/public/img/featuredupon_line.svg');
     background-repeat: no-repeat;
     background-size: contain;
@@ -144,10 +144,24 @@ h4{
 
 @media(max-width:992px){
     .single__item:before {
-        left: -10px;
-        top: 55%;
+        left: -30px;
+        top: 50px;
         width: 80px;
     }  
+    .single__item figure img {
+       max-width: 350px;
+       margin: 0 auto;
+       margin-top: -40px;
+       width: 100%;
+    }  
+    .nav-item .single__item figure {
+        display: none;
+        transition: all .3s ease-in-out
+    }
+    .nav-item.active .single__item figure {
+        display: block;
+        transition: all .3s ease-in-out
+    }
 }
 @media(max-width:576px){
     .single__item:before {
@@ -156,14 +170,19 @@ h4{
     }  
 }
 
-.single__item:nth-child(1):before {
+.nav-item.active .single__item:before {
     background-image: url('/public/img/featuredupon_activeline.svg');
 }
 
 
-.single__item:nth-child(1) h4 {
+.nav-item .single__item h4 {
+    line-height: 1.5;
+}
+.nav-item.active .single__item h4 {
     color: orange;
 }
+
+
 
 /*=====================================
 ========== Ixeo Area =================
