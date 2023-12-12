@@ -14,6 +14,7 @@ $primary: #FA8C16;
 body {
     font-family: 'Roboto Mono', monospace;
     @apply text-[#B7B7B7] leading-[1.7] font-normal;
+    overflow-y: scroll;
 }
 h2, h3,h4,h5,h6{
     font-family: 'Roboto Mono', monospace;
@@ -72,7 +73,7 @@ h4{
 }
 @media(max-width:992px){
     .main-menu{
-        position: fixed;
+        position: absolute;
         top: 61px;
         right: 0;
         width: 100%;
@@ -98,7 +99,7 @@ h4{
       }
       
       .main-menu.hide {
-        transform: translateX(100%);
+        transform: translateX(-100%);
       }
 }
 /*======================================
@@ -277,12 +278,7 @@ h4{
     }
 }
 
-.ss_box:nth-child(2) .single__service_box::before {
-    opacity: 1;
-    height: 100%;
-}
-
-.single__service_box:hover h4, .ss_box:nth-child(2) .single__service_box h4{
+.single__service_box:hover{
     color: #FA8C16;
 }
 
