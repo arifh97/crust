@@ -5,7 +5,7 @@
             <div class="flex -mx-3 justify-center">
                 <div class="w-full sm:w-10/12 px-3 text-center pb-[140px]">
                     <div class="mb-[30px] md:mb-24 px-[2%]">
-                        <h1 class="font-normal text-white text-[28px] md:text-[45px] lg:text-[60px] xl:text-[64px] leading-[1.28]">Complete Your Web3 Journey <strong class="font-bold">with Decentralized Storage</strong></h1>
+                        <h1 class="font-normal text-white text-[28px] md:text-[45px] lg:text-[60px] xl:text-[64px] leading-[1.28]">Complete Your Web3 Journey <strong class="font-bold block">with Decentralized Storage</strong></h1>
                     </div>
                     <div class="w-11/12 sm:w-10/12 md:w-8/12 flex items-center gap-8 mx-auto justify-center">
                         <Button class="w-full">Build on Crust</Button>
