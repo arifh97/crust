@@ -115,6 +115,20 @@ h4{
     z-index: -1;
 }
 
+@media(max-width:992px){
+    .single__item:before {
+        left: -10px;
+        top: 55%;
+        width: 80px;
+    }  
+}
+@media(max-width:576px){
+    .single__item:before {
+        left: -0px;
+        width: 40px;
+    }  
+}
+
 .single__item:nth-child(1):before {
     background-image: url('/public/img/featuredupon_activeline.svg');
 }
@@ -199,7 +213,6 @@ h4{
     max-width: 693px;
     margin:0 auto;
     margin-top: 18px;
-    font-size: 48px;
     line-height: 135%
 }
 
@@ -251,7 +264,6 @@ h4{
     & .section__title{
         margin-bottom: 60px;
         h2{
-            font-size: 48px;
             line-height: 130%;
         }
     }
@@ -431,6 +443,31 @@ h4{
         transition: all .3s ease-in-out;
         &:hover{
             background: linear-gradient(155deg, #FA8C16 51.7%, #000 127.92%);
+        }
+    }
+}
+
+@media(max-width:768px){
+    .ixeo__area{
+        & .ixeo__list_wrapper {
+            & .nav-item{
+                 font-size: 16px;
+                 padding:15px 12px;
+             }
+         }
+    }
+    .single__service_box svg{
+        max-width: 60px;
+    }
+    .products__area {
+        .section__title{
+            margin-bottom: 30px;
+        }
+    }
+    .footer_area{
+        &:before{
+            top: auto;
+            height: 100%;
         }
     }
 }

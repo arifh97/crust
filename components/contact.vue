@@ -1,9 +1,9 @@
 <template>
     <div class="container px-3">
-        <div class="flex flex-wrap items-center -mx-3 contact__form__wrapper p-14">
-            <div class="w-7/12 px-3">
+        <div class="flex flex-wrap items-center -mx-3 contact__form__wrapper p-3 lg:p-14 relative z-10">
+            <div class="w-full md:w-7/12 px-3">
                 <div class="content__form__area">
-                    <h3 class="mb-5">Get in touch with the team</h3>
+                    <h3 class="mb-5 leading-tight">{{title}}</h3>
                     <div class="contact__form__inner">
                         <UInput class="mb-5" color="transparent" variant="outline" placeholder="Email" />
                         <USelect color="transparent" variant="outline" v-model="selectQuestion" :options="question" />
@@ -15,14 +15,15 @@
                     
                 </div>
             </div>
-            <div class="w-5/12 px-3">
-                <img class="max-w-[400px]" src="/public/img/ipfs.png" alt="">
+            <div class="w-full md:w-5/12 px-3 mt-14 md:mt-0">
+                <img class="sm:max-w-[400px]" src="/public/img/ipfs.png" alt="">
             </div>
         </div>
     </div>
 </template>
 
 <script setup>
+const title = "Get in touch with the team";
 const question = reactive(['Development Questions', 'Design Questions', 'Marketing Questions']);
 const selectQuestion = reactive(question[0]);
 const handleSubmit = () => {

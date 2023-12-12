@@ -1,16 +1,16 @@
 <template>
-    <div class="container px-3 ipfs__area">
+    <div class="container px-3 ipfs__area pt-12 md:pt-0">
         <div class="flex flex-wrap items-center -mx-3">
             <div class="w-full px-3">
                 <SectionTitle title="IPFS Done the Right Way" subtitle="Elevating your IPFS experience, Crust Network serves as incentivized service layer, safeguarding your data with accessibility, replication, and long-term guarantees." />
             </div>
-            <div class="px-3 w-5/12">
-                <img class="-ml-[59px]" src="/img/ipfs.png" alt="">
+            <div class="px-3 w-full md:w-5/12 flex justify-center">
+                <img class="md:-ml-[59px] max-w-[329px]" src="/img/ipfs.png" alt="">
             </div>
-            <div class="px-3 w-7/12">
-                <div class="single__ipfs__item mb-[25px]" v-for="item in ipfsArray" :key="item">
-                    <h4 class="mb-5 leading-[130%]">{{ item.title }}</h4>
-                    <p class="text-white text-opacity-60">{{ item.des }}</p>
+            <div class="px-3 w-full md:w-7/12 mt-10 md:mt-0">
+                <div class="single__ipfs__item mb-[30px]" v-for="item in ipfsArray" :key="item">
+                    <h4 class="mb-4 md:mb-5 leading-[130%] text-[22px] md:text-[28px]">{{ item.title }}</h4>
+                    <p class="text-white text-opacity-60 text-[14px] md:text-[16px]">{{ item.des }}</p>
                 </div>
             </div>
         </div>

@@ -2,7 +2,7 @@
     <footer class="py-[60px] footer_area">
         <div class="container px-3">
             <div class="flex flex-wrap -mx-3 get__in__touch">
-                <div class="w-5/12 px-3">
+                <div class="md:w-5/12 px-3">
                     <NuxtLink to="/">
                         <img src="/img/logo.png" alt="" class="w-[138px] mb-6" />
                     </NuxtLink>
@@ -13,9 +13,9 @@
                         </li>
                     </ul>
                 </div>
-                <div class="w-7/12 px-3">
+                <div class="md:w-7/12 px-3">
                     <div class="flex flex-wrap">                        
-                        <div class="w-3/12" v-for="item in footerMenu" :key="item.title">
+                        <div class="w-6/12 lg:w-3/12" v-for="item in footerMenu" :key="item.title">
                             <h5 class="mb-5 text-xl font-semibold text-white">{{ item.title }}</h5>
                             <ul>
                                 <li v-for="(submenu, index) in item.link" :key="index">
