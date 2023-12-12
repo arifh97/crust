@@ -41,7 +41,7 @@ h4{
     line-height: 120%;
 }
 
-.featureupon h4, .single__service_box h4, .brand_area h2, .service__area h2, .single__ipfs__item h4, .sp__box h4, .products__area .section__title h2, .content__form__area h3, .product__tab h2, .product__tab li h4, .ixeo__tab__content h3{
+.featureupon h4, .single__service_box h4, .brand_area h2, .service__area h2, .single__ipfs__item h4, .sp__box h4, .products__area .section__title h2, .content__form__area h3, .product__tab h2, .product__tab li h4, .ixeo__tab__content h3, .featured__area h4{
     font-family: 'Roboto', sans-serif;
 }
 @media(max-width:768px){
@@ -388,7 +388,14 @@ h4{
         & li.nav-item{
             padding:15px 30px 15px 25px;
         }
+        & h4{
+            opacity: 0.6;
+        }
+        & p{
+            display: none;
+        }
         & li.active{
+            padding:25px;
             background: linear-gradient(109deg, rgba(250, 140, 22, 0.10) 18.39%, rgba(255, 255, 255, 0.00) 88.37%);
             transition: all .3s ease-in-out;
             &:before{
@@ -401,6 +408,15 @@ h4{
                 border-radius: 50px;
                 background: #FA8C16;
                 z-index: -1;
+            }
+            & h4{
+                color: #FA8C16;
+                margin-bottom: 12px;
+                opacity: 1;
+            }
+            & p{
+                display: block;
+                color: rgba(255, 255, 255, 0.60);
             }
         }
     }
@@ -456,8 +472,11 @@ h4{
              }
          }
     }
-    .single__service_box svg{
-        max-width: 60px;
+    .single__service_box{
+        padding: 25px;
+        & svg{
+            max-width: 60px;
+        }
     }
     .products__area {
         .section__title{

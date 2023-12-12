@@ -5,9 +5,9 @@
                 <SectionTitle title="Dstorage for Every Use Case" />
             </div>
             <div class="md:w-6/12 lg:w-4/12 px-3 ss_box" v-for="item in services" :key="item.id">
-                <NuxtLink to="/" class="mb-8 md:mb-14 single__service_box relative z-[1] inline-block text-center md:text-start">
+                <NuxtLink to="/" class="mt-3 mb-3 md:mt-0 md:mb-14 single__service_box relative z-[1] inline-block text-center md:text-start">
                     <div class="flex justify-center md:justify-start" v-html="item.icon" />
-                    <h4 class="mb-4 mt-9 transition ease-in-out duration-500 text-[22px] md:text-[28px]"> {{ item.title }} </h4>
+                    <h4 class="mb-4 mt-7 md:mt-9 transition ease-in-out duration-500 text-[22px] md:text-[28px]"> {{ item.title }} </h4>
                     <p class="mb-1 text-white text-opacity-60 text-[14px] md:text-[16px]">{{ item.des }}</p>
                 </NuxtLink>
             </div>

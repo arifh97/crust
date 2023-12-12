@@ -1,14 +1,14 @@
 <template>
-    <div class="container px-3 products__area pt-12 md:pt-32 pb-32">
-        <div class="flex flex-wrap -mx-3">
-            <div class="px-3 w-full">
+    <div class="container px-3 products__area pt-12 md:pt-32 md:pb-32 pb-10">
+        <div class="flex flex-wrap -mx-3 px-6">
+            <div class="px-3 w-full pb-4 md:pb-0">
                 <SectionTitle title="Explore Crust Products" />
             </div>
             <div class="sm:w-6/12 md:w-4/12 lg:w-3/12 text-center" v-for="item in product" :key="item.title">
-                <NuxtLink to="/" class="relative z-[1] inline-block py-[30px] px-[26px] sp__box">
+                <NuxtLink to="/" class="relative z-[1] inline-block py-[30px] px-[26px] mb-7 md:mb-0 sp__box">
                     <span class="flex items-center justify-center text-center mb-7 w-[50px] h-[50px] m-auto" v-html="item.icon"></span>
-                    <h4 class="mb-2 transition duration-300 text-[25px]">{{ item.title }}</h4>
-                    <p class="text-white text-opacity-[0.60]">{{ item.des }}</p>
+                    <h4 class="mb-2 transition duration-300 text-[22px] md:text-[25px]">{{ item.title }}</h4>
+                    <p class="text-white text-opacity-[0.60] text-[14px] md:text-[16px]">{{ item.des }}</p>
                 </NuxtLink>
             </div>
         </div>
