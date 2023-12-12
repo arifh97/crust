@@ -15,7 +15,6 @@ body {
     font-family: 'Roboto Mono', monospace;
     @apply text-[#B7B7B7] leading-[1.7] font-normal;
 }
-
 h2, h3,h4,h5,h6{
     font-family: 'Roboto Mono', monospace;
     font-weight: 500;
@@ -73,7 +72,7 @@ h4{
 }
 @media(max-width:992px){
     .main-menu{
-        position: absolute;
+        position: fixed;
         top: 61px;
         right: 0;
         width: 100%;
@@ -86,7 +85,10 @@ h4{
         & ul{
             display: block;
             & a{
-                padding: 12px;
+                padding: 18px;
+                text-align: left;
+                border-bottom: 1px solid #ffffff1a;
+                padding-left: 0;
             }
         }
     }
@@ -238,6 +240,20 @@ h4{
     margin:0 auto;
     margin-top: 18px;
     line-height: 135%
+}
+
+.brand_area .section__title{
+    margin-bottom: 35px;  
+}
+
+.vue3-marquee.horizontal>.marquee{
+    gap: 70px;
+    margin-right: 70px;
+    img{
+        max-width: 200px;
+        height: 40px;
+        object-fit: contain;
+    }
 }
 
 /*==================================
@@ -488,6 +504,15 @@ h4{
 }
 
 @media(max-width:768px){
+    
+.vue3-marquee.horizontal>.marquee{
+    gap: 40px;
+    margin-right: 40px;
+    img{
+        max-width: 138px;
+        height: 38px;
+    }
+}
     .ixeo__area{
         & .ixeo__list_wrapper {
             & .nav-item{

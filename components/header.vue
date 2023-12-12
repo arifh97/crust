@@ -22,7 +22,7 @@
                             <li v-for="(item,index) in menus" :key="index">
                                 <NuxtLink to="/" class="block capitalize py-2 px-5 font-normal text-base text-white text-opacity-60 transition-all duration-300 hover:text-primary-500 hover:text-opacity-100">{{ item }}</NuxtLink>
                             </li>
-                            <span class="lg:hidden flex justify-center pt-4">
+                            <span class="lg:hidden flex justify-start pt-4">
                                 <USelect v-model="lang" :options="langs" class="w-max uppercase" color="primary" variant="none" />
                             </span>
                             
