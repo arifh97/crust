@@ -126,7 +126,9 @@ h4{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
+.single__item{
+    cursor: pointer;
+}
 .single__item:before {
     position: absolute;
     content: "";
