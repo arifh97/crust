@@ -10,6 +10,9 @@ export default defineNuxtConfig({
   modules: ['@nuxt/ui'],
   devtools: { enabled: true },
   css: ['./assets/css/main.scss'],
+  plugins: [
+    './plugins/vue3-marquee.js',
+  ],
   postcss: {
     plugins: {
       tailwindcss: {},

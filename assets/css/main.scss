@@ -24,7 +24,7 @@ h2, h3,h4,h5,h6{
 }
 h1{
     font-family: 'Roboto', sans-serif;
-    
+
 }
 h2{
     font-size: 52px;
@@ -71,7 +71,34 @@ h4{
         }
     }
 }
-
+@media(max-width:992px){
+    .main-menu{
+        position: absolute;
+        top: 61px;
+        right: 0;
+        width: 100%;
+        padding: 30px;
+        background-color: #000; /* Set your desired background color */
+        backdrop-filter: blur(10px);
+        z-index: 9999;
+        transition: transform 0.5s ease-in-out;
+        transform: translateX(0%);
+        & ul{
+            display: block;
+            & a{
+                padding: 12px;
+            }
+        }
+    }
+      
+      .main-menu ul {
+        padding: 20px;
+      }
+      
+      .main-menu.hide {
+        transform: translateX(100%);
+      }
+}
 /*======================================
 ========== Decentralization ============
 =======================================*/

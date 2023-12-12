@@ -1,7 +1,7 @@
 <template>
     <div class="container px-3">
         <div class="flex flex-wrap items-center -mx-3 contact__form__wrapper p-3 lg:p-14 relative z-10">
-            <div class="w-full md:w-7/12 px-10 md:px-3">
+            <div class="w-full lg:w-7/12 px-10 md:px-3">
                 <div class="content__form__area">
                     <h3 class="mb-10 md:mb-5 leading-tight text-[25px] md:text-[48px]">{{title}}</h3>
                     <div class="contact__form__inner">
@@ -15,7 +15,7 @@
                     
                 </div>
             </div>
-            <div class="w-full md:w-5/12 px-3 mt-14 md:mt-0">
+            <div class="w-full lg:w-5/12 px-3 mt-14 lg:mt-0">
                 <img class="sm:max-w-[400px]" src="/public/img/ipfs.png" alt="">
             </div>
         </div>
