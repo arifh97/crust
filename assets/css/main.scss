@@ -387,7 +387,7 @@ figure.upor_tab_left_img img {
 =================================================*/
 .contact__form__wrapper{
     position: relative;
-    z-index: 1;
+    z-index: 9;
     &:before{
         position: absolute;
         content: "";
