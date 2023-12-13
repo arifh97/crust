@@ -16,7 +16,7 @@
             <div class="flex flex-wrap -mx-3 justify-center">
                 <div class="w-1/2 md:w-1/3 lg:w-1/4 px-3 mb-10 md:mb-7 text-center" v-for="item in bannerInfo" :key="item.title">
                     <h3 class="text-[18px] md:text-[38px] font-bold leading-tight mb-3 text-white">{{ item.title }}</h3>
-                    <p class="mb-0 text-primary-500 uppercase font-medium text-opacity-90 text-[14px] md:text-[18px]">{{ item.des }}</p>
+                    <p class="mb-0 text-primary-500 uppercase font-medium text-[14px] md:text-[18px]">{{ item.des }}</p>
                 </div>
             </div>
         </div>
