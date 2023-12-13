@@ -16,7 +16,7 @@
                 </div>
             </div>
             <div class="w-full lg:w-5/12 px-3 mt-14 lg:mt-0">
-                <img class="sm:max-w-[400px]" src="/public/img/ipfs.png" alt="">
+                <img class="sm:max-w-[400px]" src="/public/img/content_IPFS.png" alt="">
             </div>
         </div>
     </div>

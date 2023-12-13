@@ -11,16 +11,24 @@
                 <transition name="fade" mode="out-in">
                     <div :key="openTab" class="fade">
                         <div v-bind:class="{ 'hidden': openTab !== 1, 'block': openTab === 1 }">
-                            <img src="/img/upon.png" alt="">
+                            <figure class="upor_tab_left_img">
+                                <img src="/img/upon_img1.png" alt="">
+                            </figure>
                         </div>
                         <div v-bind:class="{ 'hidden': openTab !== 2, 'block': openTab === 2 }">
-                            <img src="/img/upon.png" alt="">
+                            <figure class="upor_tab_left_img">
+                                <img src="/img/upon_img2.png" alt="">
+                            </figure>
                         </div>
                         <div v-bind:class="{ 'hidden': openTab !== 3, 'block': openTab === 3 }">
-                            <img src="/img/upon.png" alt="">
+                            <figure class="upor_tab_left_img">
+                                <img src="/img/upon_img3.png" alt="">
+                            </figure>
                         </div>
                         <div v-bind:class="{ 'hidden': openTab !== 4, 'block': openTab === 4 }">
-                            <img src="/img/upon.png" alt="">
+                            <figure class="upor_tab_left_img">
+                                <img src="/img/upon_img4.png" alt="">
+                            </figure>
                         </div>
                     </div>
                 </transition>
@@ -40,8 +48,8 @@
                                 </div>                             
                             </div>
                             
-                            <figure class="lg:hidden">
-                                <img src="/img/upon.png" alt="">
+                            <figure class="lg:hidden upon_rs_img">
+                                <img src="/img/upon_img1.png" alt="">
                             </figure>
                         </div>
                     </li>
@@ -57,8 +65,8 @@
                                 </div>                             
                             </div>
                             
-                            <figure class="lg:hidden">
-                                <img src="/img/upon.png" alt="">
+                            <figure class="lg:hidden upon_rs_img">
+                                <img src="/img/upon_img2.png" alt="">
                             </figure>
                         </div>
                     </li>
@@ -74,8 +82,8 @@
                                 </div>                             
                             </div>
                             
-                            <figure class="lg:hidden">
-                                <img src="/img/upon.png" alt="">
+                            <figure class="lg:hidden upon_rs_img">
+                                <img src="/img/upon_img3.png" alt="">
                             </figure>
                         </div>
                     </li>
@@ -91,8 +99,8 @@
                                 </div>                             
                             </div>
                             
-                            <figure class="lg:hidden">
-                                <img src="/img/upon.png" alt="">
+                            <figure class="lg:hidden upon_rs_img">
+                                <img src="/img/upon_img4.png" alt="">
                             </figure>
                         </div>
                     </li>

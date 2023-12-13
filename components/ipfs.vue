@@ -5,7 +5,7 @@
                 <SectionTitle title="IPFS Done the Right Way" subtitle="Elevating your IPFS experience, Crust Network serves as incentivized service layer, safeguarding your data with accessibility, replication, and long-term guarantees." />
             </div>
             <div class="px-3 w-full md:w-5/12 flex justify-center">
-                <img class="md:-ml-[59px] max-w-[329px]" src="/img/ipfs.png" alt="">
+                <img class="md:-ml-[59px] max-w-[521px] w-[100%]" src="/img/ipfs.png" alt="">
             </div>
             <div class="px-3 w-full md:w-7/12 mt-10 md:mt-0">
                 <div class="single__ipfs__item mb-[30px]" v-for="item in ipfsArray" :key="item">

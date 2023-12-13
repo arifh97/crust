@@ -1,5 +1,5 @@
 <template>
-    <div class="pt-[140px] md:pt-[235px] pb-[80px] md:pb-[200px] bg-[url('/img/hero-banner.png')] bg-cover bg-left-bottom reactive">
+    <div class="hero_area pt-[140px] md:pt-[235px] pb-[80px] md:pb-[200px] bg-[url('/img/hero-banner.png')] bg-cover bg-left-bottom reactive">
         <img src="/img/hero-banner-after.png" alt="" class="w-full h-auto absolute top-0 left-0 z-0">
         <div class="container px-3">
             <div class="flex -mx-3 justify-center">
@@ -8,8 +8,8 @@
                         <h1 class="font-normal text-white text-[28px] md:text-[45px] lg:text-[60px] xl:text-[64px] leading-[1.28]">Complete Your Web3 Journey <strong class="font-bold block">with Decentralized Storage</strong></h1>
                     </div>
                     <div class="w-11/12 sm:w-10/12 md:w-8/12 flex items-center gap-8 mx-auto justify-center">
-                        <Button class="w-full">Build on Crust</Button>
-                        <Button class="w-full bg-[#131313] border border-solid border-white border-opacity-[.30] hover:border-primary-full">Crust Mainnet</Button>
+                        <Button class="w-[281px] btn_one">Build on Crust</Button>
+                        <Button class="w-[281px] btn_two">Crust Mainnet</Button>
                     </div>
                 </div>
             </div>
