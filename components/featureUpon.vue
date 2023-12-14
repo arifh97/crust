@@ -59,7 +59,7 @@
                                 <div class="f_U_number text-[45px] md:text-[52px] font-medium mt-3 md:mt-0">
                                     03
                                 </div>
-                                <div>
+                                <div class="mt-[30px] lg:mt-0">
                                     <h4 class="mb-3 text-[22px] md:text-[28px] font-roboto">Interoperability and Tooling</h4>
                                     <p class="mb-0 text-[#B7B7B7] leading-8 text-[14px] md:text-[18px]">EVM, XCMP, X-Chain Contracts, Pallets, SDK, APIs, etc.</p>
                                 </div>                             
@@ -76,7 +76,7 @@
                                 <div class="f_U_number text-[45px] md:text-[52px] font-medium mt-3 md:mt-0">
                                     02
                                 </div>
-                                <div>
+                                <div class="mt-[30px] lg:mt-0">
                                     <h4 class="mb-3 text-[22px] md:text-[28px] font-roboto">Blockchain and Storage protocols</h4>
                                     <p class="mb-0 text-[#B7B7B7] leading-8 text-[14px] md:text-[18px]">GPoS, MPoW, DSM, TEE, IPFS</p>
                                 </div>                             
@@ -93,7 +93,7 @@
                                 <div class="f_U_number text-[45px] md:text-[52px] font-medium mt-3 md:mt-0">
                                     01
                                 </div>
-                                <div>
+                                <div class="mt-[30px] lg:mt-0">
                                     <h4 class="mb-3 text-[22px] md:text-[28px] font-roboto">Decentralized Physical Infrastructure</h4>
                                     <p class="mb-0 text-[#B7B7B7] leading-8 text-[14px] md:text-[18px]">Validators, Storage providers, Gateway providers</p>
                                 </div>                             
