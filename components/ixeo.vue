@@ -15,7 +15,7 @@
                 Others
               </li>
           </ul>
-          <div class="ixeo__tab__content relative flex flex-col w-full pt-[40px] md:pt-[70px] pb-7 md:pb-20 px-[20px] md:px-7 rounded-[10px] bg-[#080809]">
+          <div class="ixeo__tab__content relative flex flex-col w-full pt-[45px] pb-7 md:pb-16 px-[20px] md:px-7 rounded-[10px] bg-[#080809]">
             <transition name="fade" mode="out-in">
                 <div :key="openTab" class="fade">
                     <div v-bind:class="{ 'hidden': openTab !== 1, 'block': openTab === 1 }">
@@ -23,7 +23,7 @@
                           <div class="lg:w-6/12 pt-4">
                             <h3 class="mb-4 md:mb-6 text-[24px] md:text-[36px]">IPFS</h3>
                             <ul class="tab__content__in_list">
-                              <li v-for="(item, index) in items" :key="index" class="mb-6 md:mr-[12%] relative pl-8 text-[14px] md:text-[22px]">{{ item }}</li>
+                              <li v-for="(item, index) in items" :key="index" class="mb-6 md:mr-[25%] relative pl-8 text-[14px] md:text-[16px]">{{ item }}</li>
                             </ul>
                             <a href="https://www.google.com" class="bg-[orange] min-w-[206px] text-white p-3 mt-[30px]  rounded-[6px] hover:bg-[#F97316] text-center transition inline-block duration-300">
                               Start Building
@@ -41,7 +41,7 @@
                           <div class="lg:w-6/12 pt-4">
                             <h3 class="mb-4 md:mb-6 text-[24px] md:text-[36px]">XCMP</h3>
                             <ul class="tab__content__in_list">
-                              <li v-for="(item, index) in items" :key="index" class="mb-6 md:mr-[12%] relative pl-8 text-[14px] md:text-[22px]">{{ item }}</li>
+                              <li v-for="(item, index) in items" :key="index" class="mb-6 md:mr-[25%] relative pl-8 text-[14px] md:text-[16px]">{{ item }}</li>
                             </ul>
                             <a href="https://www.google.com" class="bg-[orange] min-w-[206px] text-white p-3 mt-[30px]  rounded-[6px] hover:bg-[#F97316] text-center transition inline-block duration-300">
                               Start Building
@@ -59,7 +59,7 @@
                           <div class="lg:w-6/12 pt-4">
                             <h3 class="mb-4 md:mb-6 text-[24px] md:text-[36px]">EVM</h3>
                             <ul class="tab__content__in_list">
-                              <li v-for="(item, index) in items" :key="index" class="mb-6 md:mr-[12%] relative pl-8 text-[14px] md:text-[22px]">{{ item }}</li>
+                              <li v-for="(item, index) in items" :key="index" class="mb-6 md:mr-[25%] relative pl-8 text-[14px] md:text-[16px]">{{ item }}</li>
                             </ul>
                             <a href="https://www.google.com" class="bg-[orange] min-w-[206px] text-white p-3 mt-[30px]  rounded-[6px] hover:bg-[#F97316] text-center transition inline-block duration-300">
                               Start Building
@@ -77,7 +77,7 @@
                           <div class="lg:w-6/12 pt-4">
                             <h3 class="mb-4 md:mb-6 text-[24px] md:text-[36px]">Others</h3>
                             <ul class="tab__content__in_list">
-                              <li v-for="(item, index) in items" :key="index" class="mb-6 md:mr-[12%] relative pl-8 text-[14px] md:text-[22px]">{{ item }}</li>
+                              <li v-for="(item, index) in items" :key="index" class="mb-6 md:mr-[25%] relative pl-8 text-[14px] md:text-[16px]">{{ item }}</li>
                             </ul>
                             <a href="https://www.google.com" class="bg-[orange] min-w-[206px] text-white p-3 mt-[30px]  rounded-[6px] hover:bg-[#F97316] text-center transition inline-block duration-300">
                               Start Building
