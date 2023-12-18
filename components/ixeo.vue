@@ -1,5 +1,5 @@
 <template>
-    <div class="container pb-16 md:pb-20 ixeo__area">
+    <div class="container pt-7 pb-16 md:pb-20 ixeo__area">
         <div class="flex flex-wrap">
           <ul class="flex mb-0 list-none flex-wrap flex-row  w-full ixeo__list_wrapper rounded-[10px] bg-[#0C0C0C] backdrop-filter-[blur(7px)]">
               <li v-on:click="toggleTabs(1)" :class="{'nav-item': true, 'active': openTab === 1 }">

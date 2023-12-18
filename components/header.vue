@@ -1,5 +1,5 @@
 <template>
-    <header class="heading py-6 bg-transparent absolute top-0 left-0 w-full z-10">
+    <header class="heading py-10 bg-transparent absolute top-0 left-0 w-full z-10">
         <div class="container">
             <div class="flex items-center">
                 <div class="w-3/12">

@@ -17,14 +17,11 @@ body {
     overflow-y: scroll;
 }
 h2, h3,h4,h5,h6{
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     text-transform: capitalize;
-
-}
-h1{
-    font-family: 'Roboto', sans-serif;
-
+    z-index: 99;
+    position: relative;
 }
 h2{
     font-size: 52px;
@@ -117,12 +114,20 @@ h4{
     }
     .btn_one{
         background: #FA8C16 !important; 
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 120%;
+        padding: 28px;
     }
     .btn_two{
         border-radius: 6px;
         border: 1px solid rgba(255, 255, 255, 0.28);
         background: #131313;
         backdrop-filter: blur(35px);
+        font-weight: 500;
+        line-height: 120%;
+        font-size: 20px;
+        padding: 28px;
         &:hover{
             background: #FA8C16 !important; 
             border: 1px solid #FA8C16 !important;
@@ -135,6 +140,17 @@ h4{
 /*======================================
 ========== Decentralization ============
 =======================================*/
+.featured__area{
+    .section__title{
+        h2{
+            margin-bottom: 32px;
+        }
+        p{
+            max-width: 992px;
+            margin: 0 auto;
+        }
+    }
+}
 .decentralization_icon_box:before, .single__service_box::before, .sp__box::before{
     position: absolute;
     content: "";
@@ -324,7 +340,7 @@ figure.upor_tab_left_img img {
 ========== Service Area ============
 ====================================*/
 .single__service_box{
-    padding:30px 23px 30px 30px;
+    padding:30px 20px 30px 20px;
     & svg{
         max-width: 108px;
     }
@@ -352,6 +368,8 @@ figure.upor_tab_left_img img {
     & .section__title{
         & p{
             color: rgba(255, 255, 255, 0.60);
+            max-width: 1020px;
+            margin: 0 auto;
         }
     }
 }
@@ -562,15 +580,22 @@ figure.upor_tab_left_img img {
 }
 
 @media(max-width:768px){
-    
-.vue3-marquee.horizontal>.marquee{
-    gap: 40px;
-    margin-right: 40px;
-    img{
-        max-width: 138px;
-        height: 38px;
+    .ipfs__area .section__title{
+        p{
+            font-size: 14px;
+        }
     }
-}
+    .featured__area .section__title h2{
+        margin-bottom: 16px;
+    }
+    .vue3-marquee.horizontal>.marquee{
+        gap: 40px;
+        margin-right: 40px;
+        img{
+            max-width: 138px;
+            height: 38px;
+        }
+    }
     .ixeo__area{
         & .ixeo__list_wrapper {
             & .nav-item{
@@ -595,5 +620,26 @@ figure.upor_tab_left_img img {
             top: auto;
             height: 100%;
         }
+    }
+    .hero_area .btn_one{
+        font-size: 16px;
+    }
+    .hero_area .btn_two{
+        font-size: 16px;
+    }
+    .featured__area h4{
+        br{
+            display: none;
+        }
+    }
+}
+
+@media(max-width:410px){
+
+    .hero_area .btn_one{
+        font-size: 15px;
+    }
+    .hero_area .btn_two{
+        font-size: 15px;
     }
 }

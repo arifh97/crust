@@ -4,13 +4,13 @@
             <div class="w-full">
                 <SectionTitle title="Empowering Data through Decentralization" subtitle="With decentralization at its core Crust Network is a purpose built layer 1 blockchain providing composable cloud storage solutions for developers, builders and end-users of all ecosystems." />
             </div>
-            <div class="flex -mx-3 px-3 flex-wrap">
+            <div class="flex -mx-3 px-3 flex-wrap pt-6">
                 <div class="w-full lg:w-6/12 md:px-3" v-for="(item) in features" :key="item.id">
                     <div class="flex items-center flex-wrap mb-[37px] md:mb-[50px] lg:mb-[139px]">
                         <div class="decentralization_icon_box relative z-[1] w-[127px] md:w-[180px] h-[165px] md:h-[196px] flex items-center justify-center rounded-[10px] p-[25px] " v-html="item.icon"></div>
                         <div class="w-[calc(100%-127px)] sm:w-[calc(100%-180px)] pl-[19px] md:pl-6">
-                            <h4 class="mb-3 leading-[130%] text-white text-opacity-90 text-[20px] md:text-[28px]">{{ item.title }}</h4>
-                            <p class="text-[#B7B7B7] max-w-[332px] text-[14px] md:text-[18px]">{{ item.des }}</p>
+                            <h4 class="mb-3 leading-[130%] text-white text-opacity-90 text-[20px] md:text-[24px]"  v-html="item.title"></h4>
+                            <p class="text-[#B7B7B7] max-w-[332px] text-[14px] md:text-[16px]">{{ item.des }}</p>
                         </div>
                     </div>
                 </div>
@@ -78,7 +78,7 @@ const features = reactive([
   <path d="M49.5068 61.8751L41.8603 57.5952C41.4589 57.3709 40.9364 57.4877 40.6927 57.8564C40.4487 58.225 40.5759 58.7057 40.9766 58.93L48.6231 63.2099C48.7613 63.2871 48.9135 63.324 49.0641 63.324C49.3508 63.324 49.6308 63.1904 49.7907 62.9488C50.0346 62.5801 49.9075 62.0994 49.5068 61.8751Z" fill="white"/>
 </svg>
         `,
-        title: 'Decentralized Physical Infrastructure',
+        title: 'Decentralized Physical <br> Infrastructure',
         des:'A global network of nodes ensures true decentralization at its foundation, along with vast storage resources.',
     },
     {
@@ -117,7 +117,7 @@ const features = reactive([
   <path d="M82.2437 75.8929L84.8272 78.2686C84.9866 78.4152 85.2026 78.4975 85.428 78.4975C85.6533 78.4975 85.8694 78.4152 86.0288 78.2687L91.4514 73.2824C91.7831 72.9772 91.7831 72.4826 91.4514 72.1775C91.1195 71.8725 90.5816 71.8725 90.2498 72.1775L88.9888 73.337L85.428 76.6114L83.7315 75.0513L83.4453 74.7881C83.1136 74.4833 82.5758 74.4831 82.2437 74.7881C81.9119 75.0931 81.9119 75.5878 82.2437 75.8929Z" fill="white"/>
 </svg>
             `,
-        title: 'Guaranteed Storage on IPFS',
+        title: 'Guaranteed Storage <br> on IPFS',
         des:'Powering IPFS with an incentive and service layer, to assure data availability and redundancy through a trustless protocol.',
     },
     {
@@ -138,7 +138,7 @@ const features = reactive([
   <path d="M84.5292 24.0717C84.9321 26.1538 86.9138 27.7401 89.2921 27.7401C89.7613 27.7401 90.1417 27.3903 90.1417 26.9589C90.1417 26.5274 89.7613 26.1776 89.2921 26.1776C87.5608 26.1776 86.1521 24.8824 86.1521 23.2904C86.1521 21.6984 87.5608 20.4032 89.2921 20.4032C91.0235 20.4032 92.4319 21.6984 92.4319 23.2904C92.4319 23.7219 92.8123 24.0717 93.2815 24.0717C93.7507 24.0717 94.1311 23.7219 94.1311 23.2904C94.1311 20.8368 91.9604 18.8407 89.2921 18.8407C86.9138 18.8407 84.9321 20.427 84.5292 22.5092C84.48 22.7631 84.4529 23.0238 84.4529 23.2904C84.4529 23.5571 84.48 23.8178 84.5292 24.0717Z" fill="white"/>
 </svg>
             `,
-        title: 'Omnichain Interoperability',
+        title: 'Omnichain <br> Interoperability',
         des:'Omnichain storage services for frictionless interoperability across multiple ecosystems and in the most native way.',
     },
     {
@@ -205,7 +205,7 @@ const features = reactive([
   <path d="M52.0867 54.5644C52.0867 53.9345 52.644 53.4221 53.3289 53.4221H55.9439C56.3405 53.4221 56.6633 53.7188 56.6633 54.0835C56.6633 54.2738 56.7402 54.4458 56.8631 54.5813C57.019 54.7531 57.2506 54.8647 57.5129 54.8647C57.9821 54.8647 58.3625 54.5149 58.3625 54.0835C58.3625 52.8573 57.2775 51.8596 55.9439 51.8596H53.3289C51.7071 51.8596 50.3875 53.073 50.3875 54.5644C50.3875 56.0559 51.7071 57.2692 53.3289 57.2692H55.4208C56.1059 57.2692 56.6633 57.7817 56.6633 58.4116C56.6633 59.0415 56.1059 59.5539 55.4208 59.5539H52.806C52.4094 59.5539 52.0867 59.2572 52.0867 58.8925C52.0867 58.7022 52.0097 58.5302 51.8868 58.3946C51.7309 58.2229 51.4993 58.1112 51.2371 58.1112C50.7679 58.1112 50.3875 58.461 50.3875 58.8925C50.3875 60.1187 51.4725 61.1164 52.806 61.1164H55.4208C57.0429 61.1164 58.3625 59.903 58.3625 58.4116C58.3625 56.9201 57.0429 55.7067 55.4208 55.7067H53.3289C52.644 55.7067 52.0867 55.1943 52.0867 54.5644Z" fill="white"/>
 </svg>
             `,
-        title: 'On-chain Storage Market',
+        title: 'On-chain <br> Storage Market',
         des:'Access a decentralized  and permissionless  storage market catering to permanent and flexible storage needs.',
     },
 ])

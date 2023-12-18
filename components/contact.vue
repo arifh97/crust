@@ -1,9 +1,9 @@
 <template>
-    <div class="container px-3">
+    <div class="container px-3 md:pt-16">
         <div class="flex flex-wrap items-center -mx-3 contact__form__wrapper p-3 lg:p-14 relative z-10">
             <div class="w-full lg:w-7/12 px-10 md:px-3">
                 <div class="content__form__area">
-                    <h3 class="mb-10 md:mb-5 leading-tight text-[25px] md:text-[48px]">{{title}}</h3>
+                    <h3 class="mb-10 md:mb-8 leading-tight text-[25px] md:text-[48px]">{{title}}</h3>
                     <div class="contact__form__inner">
                         <UInput class="mb-5" color="transparent" variant="outline" placeholder="Email" />
                         <USelect color="transparent" variant="outline" v-model="selectQuestion" :options="question" />
