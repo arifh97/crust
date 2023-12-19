@@ -470,6 +470,10 @@ figure.upor_tab_left_img img {
         
         & .contact__form__inner{
             max-width: 446px;
+            & button{
+                font-family: 'Roboto', sans-serif;
+                font-weight: 500;
+            }
         }
         
     }
