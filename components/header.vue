@@ -1,5 +1,5 @@
 <template>
-    <header class="heading py-10 bg-transparent absolute top-0 left-0 w-full z-10">
+    <header class="heading py-5 md:py-10 bg-transparent absolute top-0 left-0 w-full z-[999]">
         <div class="container">
             <div class="flex items-center">
                 <div class="w-3/12">
@@ -17,7 +17,7 @@
                             <path d="M28.1562 25.4375H12.4791" stroke="white" stroke-width="2.23958" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
                     </button>
-                    <nav class="main-menu" :class="{ 'hide': !isMenuOpen }">
+                    <nav class="main-menu z-[999]" :class="{ 'hide': !isMenuOpen }">
                         <ul class="flex flex-wrap items-center justify-start">
                             <li v-for="(item,index) in menus" :key="index">
                                 <NuxtLink to="/" class="block capitalize py-2 px-5 font-normal text-base text-white text-opacity-60 transition-all duration-300 hover:text-primary-500 hover:text-opacity-100">{{ item }}</NuxtLink>
