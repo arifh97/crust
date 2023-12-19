@@ -7,19 +7,19 @@
                 <ul class="flex flex-col space-y-2">
                     <li v-on:click="toggleTabs(1)" :class="{'nav-item': true, 'active': openTab === 1 }">
                         <h4 class="text-[22px] md:text-[28px]">DSM via Crust Mainnet</h4>
-                        <p class="text-[14px] md:text-[16px]">Everyone can place an on-chain storage order and get your data distributed on IPFS <a target="_blank" href="https://apps.crust.network">https://apps.crust.network</a></p>
+                        <p class="text-[14px] md:text-[16px]">Everyone can place an on-chain storage order and get your data distributed on IPFS <a class="mt-3 block" target="_blank" href="https://apps.crust.network">https://apps.crust.network</a></p>
                     </li>
                     <li v-on:click="toggleTabs(2)" :class="{'nav-item': true, 'active': openTab === 2 }">
                         <h4 class="text-[22px] md:text-[28px]">Crust Files</h4>
-                        <p class="text-[14px] md:text-[16px]">Everyone can place an on-chain storage order and get your data distributed on IPFS</p>
+                        <p class="text-[14px] md:text-[16px]">Everyone can place an on-chain storage order and get your data distributed on IPFS <a class="mt-3 block" target="_blank" href="https://apps.crust.network">https://apps.crust.network</a></p>
                     </li>
                     <li v-on:click="toggleTabs(3)" :class="{'nav-item': true, 'active': openTab === 3 }">
                         <h4 class="text-[22px] md:text-[28px] ">Crust Cloud</h4>
-                        <p class="text-[14px] md:text-[16px]">Everyone can place an on-chain storage order and get your data distributed on IPFS</p>
+                        <p class="text-[14px] md:text-[16px]">Everyone can place an on-chain storage order and get your data distributed on IPFS <a class="mt-3 block" target="_blank" href="https://apps.crust.network">https://apps.crust.network</a></p>
                     </li>
                     <li v-on:click="toggleTabs(4)" :class="{'nav-item': true, 'active': openTab === 4 }">
                         <h4 class="text-[22px] md:text-[28px] ">IPFS Scan</h4>
-                        <p class="text-[14px] md:text-[16px]">Everyone can place an on-chain storage order and get your data distributed on IPFS</p>
+                        <p class="text-[14px] md:text-[16px]">Everyone can place an on-chain storage order and get your data distributed on IPFS <a class="mt-3 block" target="_blank" href="https://apps.crust.network">https://apps.crust.network</a></p>
                     </li>
                 </ul>
             </div>

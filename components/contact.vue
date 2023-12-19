@@ -8,7 +8,7 @@
                         <UInput class="mb-5" color="transparent" variant="outline" placeholder="Email" />
                         <USelect color="transparent" variant="outline" v-model="selectQuestion" :options="question" />
                         <!-- Submit button -->
-                        <button @click="handleSubmit" class="bg-[orange] min-w-[192px] text-white p-3 mt-[30px]  rounded-[6px] hover:bg-[#F97316] transition duration-300">
+                        <button @click="handleSubmit" class="bg-[#FA8C16] min-w-[192px] text-white p-3 mt-[32px]  rounded-[6px] hover:bg-[#F97316] transition duration-300">
                             Submit
                         </button>
                     </div>

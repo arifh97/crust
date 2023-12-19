@@ -3,7 +3,7 @@
         <div class="flex flex-wrap items-center -mx-3">
       <!-- Left Side Navigation -->
             
-            <div class="w-full px-3 pb-6">
+            <div class="w-full px-3  md:pb-6">
                 <SectionTitle title="A tech stack to be built upon" />
             </div>
             <!-- Right Side Content -->
