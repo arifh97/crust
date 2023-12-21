@@ -48,7 +48,7 @@ const product = reactive([
 </svg>
 `,
         title: 'DSM',
-        des: `It is a long established fact that a reader will be distracted by the readable content of.`,
+        des: `Upload files directly to Crusts mainnet through the decentralized storage marketplace which automatically matches users with the most efficient node for their use case`,
     },
     {
         icon: `<svg width="51" height="42" viewBox="0 0 51 42" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -56,7 +56,7 @@ const product = reactive([
 </svg>
 `,
         title: 'Files',
-        des: `It is a long established fact that a reader will be distracted by the readable content of.`,
+        des: `Check our user dApp Crust Files to easily upload files via drag and drop, and access encrypted data features`,
     },
     {
         icon: `<svg width="51" height="50" viewBox="0 0 51 50" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -71,7 +71,7 @@ const product = reactive([
 </svg>
 `,
         title: 'Cloud',
-        des: `It is a long established fact that a reader will be distracted by the readable content of.`,
+        des: `Enterprise clients love Crust Cloud for its simple to use restful API’s, permanent storage, and transferability of data via Web3 Bucket NFT technology`,
     },
     {
         icon: `<svg width="51" height="50" viewBox="0 0 51 50" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -87,7 +87,7 @@ const product = reactive([
 </svg>
 `,
         title: 'IPES Scan',
-        des: `It is a long established fact that a reader will be distracted by the readable content of.`,
+        des: `Unsure if your file uploaded? Wary of using decentralized tech? Upload a file via any IPFS compatible dApp and track which nodes are hosting your data via IPFS Scan`,
     },
 ])
 </script>
