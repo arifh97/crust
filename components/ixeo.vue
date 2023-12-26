@@ -21,7 +21,7 @@
                     <div v-bind:class="{ 'hidden': openTab !== 1, 'block': openTab === 1 }">
                         <div class="flex flex-wrap">
                           <div class="lg:w-6/12 pt-4  md:pl-[75px]">
-                            <h3 class="mb-4 md:mb-6 text-[24px] md:text-[36px]  md:pl-[30px]">IPFS</h3>
+                            <h3 class="mb-4 md:mb-6 text-[24px] md:pl-[30px]">IPFS</h3>
                             <ul class="tab__content__in_list">
                               <li v-for="(item, index) in items" :key="index" class="mb-8 md:mr-[15%] relative pl-8 text-[14px] md:text-[16px]">{{ item }}</li>
                             </ul>
@@ -39,7 +39,7 @@
                     <div v-bind:class="{ 'hidden': openTab !== 2, 'block': openTab === 2 }">
                       <div class="flex flex-wrap">
                           <div class="lg:w-6/12 pt-4 md:pl-[75px]">
-                            <h3 class="mb-4 md:mb-6 text-[24px] md:text-[36px]  md:pl-[30px]">XCMP</h3>
+                            <h3 class="mb-4 md:mb-6 text-[24px] md:pl-[30px]">XCMP</h3>
                             <ul class="tab__content__in_list">
                               <li v-for="(item, index) in items" :key="index" class="mb-8 md:mr-[15%] relative pl-8 text-[14px] md:text-[16px]">{{ item }}</li>
                             </ul>
@@ -57,7 +57,7 @@
                     <div v-bind:class="{ 'hidden': openTab !== 3, 'block': openTab === 3 }">
                       <div class="flex flex-wrap">
                           <div class="lg:w-6/12 pt-4 md:pl-[75px]">
-                            <h3 class="mb-4 md:mb-6 text-[24px] md:text-[36px]  md:pl-[30px]">EVM</h3>
+                            <h3 class="mb-4 md:mb-6 text-[24px] md:pl-[30px]">EVM</h3>
                             <ul class="tab__content__in_list">
                               <li v-for="(item, index) in items" :key="index" class="mb-8 md:mr-[15%] relative pl-8 text-[14px] md:text-[16px]">{{ item }}</li>
                             </ul>
@@ -75,7 +75,7 @@
                     <div v-bind:class="{ 'hidden': openTab !== 4, 'block': openTab === 4 }">
                       <div class="flex flex-wrap">
                           <div class="lg:w-6/12 pt-4 md:pl-[75px]">
-                            <h3 class="mb-4 md:mb-6 text-[24px] md:text-[36px]  md:pl-[30px]">Others</h3>
+                            <h3 class="mb-4 md:mb-6 text-[24px] md:pl-[30px]">Others</h3>
                             <ul class="tab__content__in_list">
                               <li v-for="(item, index) in items" :key="index" class="mb-8 md:mr-[15%] relative pl-8 text-[14px] md:text-[16px]">{{ item }}</li>
                             </ul>
