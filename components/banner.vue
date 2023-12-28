@@ -1,13 +1,8 @@
 <template>
     <div class="hero_area pt-[140px] md:pt-[215px] pb-[80px] md:pb-[115px] bg-cover bg-left-bottom reactive">
-         <!-- Video Background -->
          <video autoplay muted loop class="absolute inset-0 w-full h-full object-cover -z-0">
-          <!-- Replace 'your-video-source.mp4' with the actual video source URL  -->
           <source src="/public/img/hero-orange-video.mp4" type="video/mp4">
-            <!-- Your browser does not support the video tag. -->
         </video>
-
-        <!-- Content Overlay -->
         <div class="absolute inset-0 bg-black opacity-50"></div>
         <img src="/public/img/hero-banner-after.png" alt="" class="w-full h-auto absolute top-0 left-0 z-1">
         <div class="container px-3 z-10 relative">
