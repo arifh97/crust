@@ -6,7 +6,7 @@
                     <NuxtLink to="/">
                         <img src="/img/logo.png" alt="" class="w-[138px] mb-6" />
                     </NuxtLink>
-                    <p class="text-[14px] md:text-lg  text-white text-opacity-60 pb-8 md:pb-6 pt-3">{{ footerDesc }}</p>
+                    <p class="text-[14px] md:text-[18px] leading-[170%]  text-white text-opacity-60 pb-8 md:pb-6 pt-3">{{ footerDesc }}</p>
                     <ul class="flex items-center flex-wrap social__icons ">
                         <li v-for="(item,index) in social" :key="index">
                             <NuxtLink :to=item.url target="_blank"><span v-html="item.svg"></span></NuxtLink>
