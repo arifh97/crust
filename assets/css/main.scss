@@ -112,6 +112,9 @@ h4{
 =======================================*/
 
 .hero_area{
+    h1{
+        line-height: 1.6em;
+    }
     button{
         color:#fff !important;
     }
@@ -196,9 +199,9 @@ figure.upor_tab_left_img {
     max-width: 847px;
 }
 figure.upor_tab_left_img img {
-    max-width: 135%;
-    margin-top: -263px;
-    margin-left: -135px;
+    max-width: 120%;
+    margin-top: -185px;
+    margin-left: -153px 
 }
 @media(max-width:992px){
     .single__item:before {
@@ -322,7 +325,8 @@ figure.upor_tab_left_img img {
     max-width: 693px;
     margin:0 auto;
     margin-top: 18px;
-    line-height: 135%
+    line-height: 135%;
+    font-size: 48px;
 }
 
 .brand_area .section__title{
@@ -385,6 +389,7 @@ figure.upor_tab_left_img img {
         margin-bottom: 60px;
         h2{
             line-height: 130%;
+            font-size: 48px;
         }
     }
 
@@ -537,6 +542,7 @@ figure.upor_tab_left_img img {
                 color: #FA8C16;
                 margin-bottom: 12px;
                 opacity: 1;
+                font-weight: 600;
             }
             & p{
                 display: block;

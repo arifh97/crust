@@ -86,7 +86,7 @@ const product = reactive([
 <path d="M43.2083 31.2501H7.79167C7.21667 31.2501 6.75 30.7834 6.75 30.2084C6.75 29.6334 7.21667 29.1667 7.79167 29.1667H43.2083C43.7833 29.1667 44.25 29.6334 44.25 30.2084C44.25 30.7834 43.7833 31.2501 43.2083 31.2501Z" fill="white"/>
 </svg>
 `,
-        title: 'IPES Scan',
+        title: 'IPFS Scan',
         des: `Unsure if your file uploaded? Wary of using decentralized tech? Upload a file via any IPFS compatible dApp and track which nodes are hosting your data via IPFS Scan`,
     },
 ])

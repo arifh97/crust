@@ -29,16 +29,16 @@
                 <transition name="fade" mode="out-in">
                     <div :key="openTab" class="fade">
                         <div v-bind:class="{ 'hidden': openTab !== 1, 'block': openTab === 1 }">
-                            <img src="/public/img/product-tab-img1.png" alt="">
+                            <img src="/public/img/crust-mainnet.png" alt="">
                         </div>
                         <div v-bind:class="{ 'hidden': openTab !== 2, 'block': openTab === 2 }">
-                            <p>Content for Settings tab goes here. 2</p>
+                          <img src="/public/img/crust-file.png" alt="">
                         </div>
                         <div v-bind:class="{ 'hidden': openTab !== 3, 'block': openTab === 3 }">
-                            <p>Content for Options tab goes here. 3</p>
+                          <img src="/public/img/crust-cloud.png" alt="">
                         </div>
                         <div v-bind:class="{ 'hidden': openTab !== 4, 'block': openTab === 4 }">
-                            <p>Content for Options tab goes here 4.</p>
+                          <img src="/public/img/ipfs-scan.png" alt="">
                         </div>
                     </div>
                 </transition>

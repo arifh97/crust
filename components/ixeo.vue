@@ -23,7 +23,7 @@
                           <div class="lg:w-6/12 pt-4  md:pl-[75px]">
                             <h3 class="mb-4 md:mb-6 text-[24px] md:pl-[30px]">IPFS</h3>
                             <ul class="tab__content__in_list">
-                              <li v-for="(item, index) in items" :key="index" class="mb-8 md:mr-[15%] relative pl-8 text-[14px] md:text-[16px]">{{ item }}</li>
+                              <li v-for="(item, index) in items" :key="index" class="mb-9 md:mr-[15%] relative pl-8 text-[14px] md:text-[16px]">{{ item }}</li>
                             </ul>
                             <a href="https://www.google.com" class="bg-[#FA8C16] min-w-[206px] text-white p-3 mt-[24px] md:mt-[60px]  rounded-[6px] hover:bg-[#F97316] text-center transition inline-block duration-300 md:ml-[30px] text-[16px] md:text-[20px]">
                               Start Building
@@ -31,7 +31,7 @@
                           </div>
                           <div class="lg:w-6/12 mt-8">
                             <figure>
-                                <img class="ml-[auto]" src="/public/img/ixeo_right_img1.png" alt="">
+                                <img class="ml-[auto] h-[300px] sm:h-[469px]" src="/public/img/ixeo_right_img1.png" alt="">
                             </figure>
                           </div>
                         </div>
@@ -41,7 +41,7 @@
                           <div class="lg:w-6/12 pt-4 md:pl-[75px]">
                             <h3 class="mb-4 md:mb-6 text-[24px] md:pl-[30px]">XCMP</h3>
                             <ul class="tab__content__in_list">
-                              <li v-for="(item, index) in items" :key="index" class="mb-8 md:mr-[15%] relative pl-8 text-[14px] md:text-[16px]">{{ item }}</li>
+                              <li v-for="(item, index) in items" :key="index" class="mb-9 md:mr-[15%] relative pl-8 text-[14px] md:text-[16px]">{{ item }}</li>
                             </ul>
                             <a href="https://www.google.com" class="bg-[#FA8C16] min-w-[206px] text-white p-3 mt-[24px] md:mt-[60px]  rounded-[6px] hover:bg-[#F97316] text-center transition inline-block duration-300 md:ml-[30px] text-[16px] md:text-[20px]">
                               Start Building
@@ -49,7 +49,7 @@
                           </div>
                           <div class="lg:w-6/12 mt-8">
                             <figure>
-                                <img class="ml-[auto]" src="/public/img/ixeo_right_img1.png" alt="">
+                                <img class="ml-[auto] h-[300px] sm:h-[469px]" src="/public/img/ixeo_right_img1.png" alt="">
                             </figure>
                           </div>
                         </div>
@@ -59,7 +59,7 @@
                           <div class="lg:w-6/12 pt-4 md:pl-[75px]">
                             <h3 class="mb-4 md:mb-6 text-[24px] md:pl-[30px]">EVM</h3>
                             <ul class="tab__content__in_list">
-                              <li v-for="(item, index) in items" :key="index" class="mb-8 md:mr-[15%] relative pl-8 text-[14px] md:text-[16px]">{{ item }}</li>
+                              <li v-for="(item, index) in items" :key="index" class="mb-9 md:mr-[15%] relative pl-8 text-[14px] md:text-[16px]">{{ item }}</li>
                             </ul>
                             <a href="https://www.google.com" class="bg-[#FA8C16] min-w-[206px] text-white p-3 mt-[24px] md:mt-[60px]  rounded-[6px] hover:bg-[#F97316] text-center transition inline-block duration-300 md:ml-[30px] text-[16px] md:text-[20px]">
                               Start Building
@@ -67,7 +67,7 @@
                           </div>
                           <div class="lg:w-6/12 mt-8">
                             <figure>
-                                <img class="ml-[auto]" src="/public/img/ixeo_right_img1.png" alt="">
+                                <img class="ml-[auto] h-[300px] sm:h-[469px]" src="/public/img/ixeo_right_img1.png" alt="">
                             </figure>
                           </div>
                         </div>
@@ -77,7 +77,7 @@
                           <div class="lg:w-6/12 pt-4 md:pl-[75px]">
                             <h3 class="mb-4 md:mb-6 text-[24px] md:pl-[30px]">Others</h3>
                             <ul class="tab__content__in_list">
-                              <li v-for="(item, index) in items" :key="index" class="mb-8 md:mr-[15%] relative pl-8 text-[14px] md:text-[16px]">{{ item }}</li>
+                              <li v-for="(item, index) in items" :key="index" class="mb-9 md:mr-[15%] relative pl-8 text-[14px] md:text-[16px]">{{ item }}</li>
                             </ul>
                             <a href="https://www.google.com" class="bg-[#FA8C16] min-w-[206px] text-white p-3 mt-[24px] md:mt-[60px]  rounded-[6px] hover:bg-[#F97316] text-center transition inline-block duration-300 md:ml-[30px] text-[16px] md:text-[20px]">
                               Start Building
@@ -85,7 +85,7 @@
                           </div>
                           <div class="lg:w-6/12 mt-8">
                             <figure>
-                                <img class="ml-[auto]" src="/public/img/ixeo_right_img1.png" alt="">
+                                <img class="ml-[auto] h-[300px] sm:h-[469px]" src="/public/img/ixeo_right_img1.png" alt="">
                             </figure>
                           </div>
                         </div>
