@@ -20,6 +20,8 @@
     },
     "dependencies": {
         "@nuxt/ui": "^2.11.0",
+        "dracula-prism": "^2.1.13",
+        "prismjs": "^1.29.0",
         "sass": "^1.69.5",
         "vue3-marquee": "^4.1.0"
     }

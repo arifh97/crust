@@ -1,17 +1,23 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  app:{
+  app: {
     head: {
       title: 'Crust ',
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
-    }
+    },
   },
-  modules: ['@nuxt/ui'],
+  modules: [
+    '@nuxt/ui', 
+  ],
   devtools: { enabled: true },
-  css: ['./assets/css/main.scss'],
+  css: [
+    './assets/css/main.scss', 
+    'prismjs/themes/prism.css',
+  ],
   plugins: [
     './plugins/vue3-marquee.js',
+    { src: '~/plugins/prism.js', ssr: false }
   ],
   postcss: {
     plugins: {
