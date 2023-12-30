@@ -13,7 +13,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: [
     './assets/css/main.scss', 
-    './assets/css/dracula-prism.min.css', 
+    // './assets/css/dracula-prism.min.css', 
     'prismjs/themes/prism.css',
   ],
   plugins: [
