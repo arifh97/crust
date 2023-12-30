@@ -17,7 +17,8 @@ export default defineNuxtConfig({
   ],
   plugins: [
     './plugins/vue3-marquee.js',
-    { src: '~/plugins/prism.js', ssr: false }
+    // '{ src: '~/plugins/prism.js', ssr: false }',
+    './plugins/prism.js'
   ],
   postcss: {
     plugins: {

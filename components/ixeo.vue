@@ -31,7 +31,7 @@
                           </div>
                           <div class="lg:w-6/12 mt-8">
                             <div class="api_code_with_copy_code">
-                              <ul className="copycode_header">
+                              <ul class="copycode_header">
                                 <p>Api Code</p>
                                 <button @click="copyCode" class="copy-button"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13" fill="none">
                                     <path d="M3.95087 6.67881C3.70961 5.65025 3.70961 4.57983 3.95087 3.55127C4.28495 2.12706 5.39698 1.01502 6.8212 0.680949C7.84975 0.439684 8.92018 0.439684 9.94873 0.680949C11.3729 1.01502 12.485 2.12706 12.8191 3.55128C13.0603 4.57983 13.0603 5.65025 12.8191 6.6788C12.485 8.10302 11.3729 9.21505 9.94872 9.54913C8.92017 9.79039 7.84975 9.79039 6.8212 9.54913M3.95087 6.67881C4.28495 8.10302 5.39699 9.21505 6.8212 9.54913M3.95087 6.67881C3.79896 6.03119 3.7427 5.36696 3.78209 4.70705C3.72639 4.71842 3.67081 4.7306 3.61538 4.7436C2.39462 5.02995 1.44145 5.98313 1.1551 7.20388C0.9483 8.0855 0.9483 9.00301 1.1551 9.88462C1.44145 11.1054 2.39463 12.0586 3.61538 12.3449C4.49699 12.5517 5.4145 12.5517 6.29612 12.3449C7.51687 12.0586 8.47005 11.1054 8.7564 9.88462C8.7694 9.82919 8.78158 9.77361 8.79295 9.71791C8.13304 9.7573 7.46882 9.70104 6.8212 9.54913" stroke="#D9D9E2"/>
@@ -39,7 +39,7 @@
                                   <div v-if="copyStatus" class="copy-status">{{ copyStatus }}</div>
                               </ul>
                               <div class="code">
-<pre className="code-wrapper">
+<pre class="code-wrapper">
 <code class="language theme-dracula" v-pre>const got = require('got');
 const { create, globSource } = require('ipfs-http-client');
 const { Keyring } = require('@polkadot/keyring');
@@ -148,7 +148,8 @@ main().catch(error => {
                               </ul>
                               <div class="code">
 <pre className="code-wrapper">
-<code class="language theme-dracula" v-pre>#![cfg_attr(not(feature = "std"), no_std)]
+<code class="language theme-dracula" v-pre>
+  <!-- #![cfg_attr(not(feature = "std"), no_std)]
 use frame_support::pallet;
 
 pub use pallet::*;
@@ -343,7 +344,8 @@ mod tests {
 		let output = hex::encode(Account32Hash::<RelayNetwork, AccountId>::convert_ref(&input).unwrap().encode());
 		assert_eq!(output, "39391a315541eb4aa52c745b78e35aefcecf1a0ff1525e94e63b4dd006f81846");
 	}
-}</code>
+} -->
+</code>
 </pre>
                               </div>
                             </div>
@@ -363,7 +365,7 @@ mod tests {
                           </div>
                           <div class="lg:w-6/12 mt-8">
                             <div class="api_code_with_copy_code">
-                              <ul className="copycode_header">
+                              <ul class="copycode_header">
                                 <p>Api Code</p>
                                 <button @click="copyCode" class="copy-button"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13" fill="none">
                                     <path d="M3.95087 6.67881C3.70961 5.65025 3.70961 4.57983 3.95087 3.55127C4.28495 2.12706 5.39698 1.01502 6.8212 0.680949C7.84975 0.439684 8.92018 0.439684 9.94873 0.680949C11.3729 1.01502 12.485 2.12706 12.8191 3.55128C13.0603 4.57983 13.0603 5.65025 12.8191 6.6788C12.485 8.10302 11.3729 9.21505 9.94872 9.54913C8.92017 9.79039 7.84975 9.79039 6.8212 9.54913M3.95087 6.67881C4.28495 8.10302 5.39699 9.21505 6.8212 9.54913M3.95087 6.67881C3.79896 6.03119 3.7427 5.36696 3.78209 4.70705C3.72639 4.71842 3.67081 4.7306 3.61538 4.7436C2.39462 5.02995 1.44145 5.98313 1.1551 7.20388C0.9483 8.0855 0.9483 9.00301 1.1551 9.88462C1.44145 11.1054 2.39463 12.0586 3.61538 12.3449C4.49699 12.5517 5.4145 12.5517 6.29612 12.3449C7.51687 12.0586 8.47005 11.1054 8.7564 9.88462C8.7694 9.82919 8.78158 9.77361 8.79295 9.71791C8.13304 9.7573 7.46882 9.70104 6.8212 9.54913" stroke="#D9D9E2"/>
@@ -371,8 +373,9 @@ mod tests {
                                   <div v-if="copyStatus" class="copy-status">{{ copyStatus }}</div>
                               </ul>
                               <div class="code">
-<pre className="code-wrapper">
-<code class="language theme-dracula" v-pre>const { ethers } = require("ethers");
+<pre class="code-wrapper">
+<code class="language theme-dracula" v-pre>
+const { ethers } = require("ethers");
 
 // Base
 const ABI = `[{"inputs":[],"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":false,"internalType":"address","name":"previousAdmin","type":"address"},{"indexed":false,"internalType":"address","name":"newAdmin","type":"address"}],"name":"AdminChanged","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"beacon","type":"address"}],"name":"BeaconUpgraded","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"internalType":"uint8","name":"version","type":"uint8"}],"name":"Initialized","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"internalType":"address","name":"customer","type":"address"},{"indexed":false,"internalType":"address","name":"merchant","type":"address"},{"indexed":false,"internalType":"string","name":"cid","type":"string"},{"indexed":false,"internalType":"uint256","name":"size","type":"uint256"},{"indexed":false,"internalType":"uint256","name":"price","type":"uint256"},{"indexed":false,"internalType":"bool","name":"isPermanent","type":"bool"}],"name":"Order","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"previousOwner","type":"address"},{"indexed":true,"internalType":"address","name":"newOwner","type":"address"}],"name":"OwnershipTransferred","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"implementation","type":"address"}],"name":"Upgraded","type":"event"},{"inputs":[{"internalType":"address","name":"nodeAddress","type":"address"}],"name":"addOrderNode","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"getNodesNumber","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"size","type":"uint256"},{"internalType":"bool","name":"isPermanent","type":"bool"}],"name":"getPrice","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"initialize","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"uint256","name":"","type":"uint256"}],"name":"nodeArray","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"","type":"address"}],"name":"nodes","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"owner","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"string","name":"cid","type":"string"},{"internalType":"uint256","name":"size","type":"uint256"},{"internalType":"bool","name":"isPermanent","type":"bool"}],"name":"placeOrder","outputs":[],"stateMutability":"payable","type":"function"},{"inputs":[{"internalType":"string","name":"cid","type":"string"},{"internalType":"uint256","name":"size","type":"uint256"},{"internalType":"address","name":"nodeAddress","type":"address"},{"internalType":"bool","name":"isPermanent","type":"bool"}],"name":"placeOrderWithNode","outputs":[],"stateMutability":"payable","type":"function"},{"inputs":[],"name":"priceOracle","outputs":[{"internalType":"contract IPriceOracle","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"proxiableUUID","outputs":[{"internalType":"bytes32","name":"","type":"bytes32"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"nodeAddress","type":"address"}],"name":"removeOrderNode","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"renounceOwnership","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"priceOracleAddress","type":"address"}],"name":"setPriceOracle","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"newOwner","type":"address"}],"name":"transferOwnership","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"newImplementation","type":"address"}],"name":"upgradeTo","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"newImplementation","type":"address"},{"internalType":"bytes","name":"data","type":"bytes"}],"name":"upgradeToAndCall","outputs":[],"stateMutability":"payable","type":"function"}]`
@@ -407,7 +410,8 @@ async function main() {
     await main();
 })().catch(e => {
     console.error(e);
-});</code>
+});
+</code>
 </pre>
                               </div>
                             </div>
@@ -435,8 +439,9 @@ async function main() {
                                   <div v-if="copyStatus" class="copy-status">{{ copyStatus }}</div>
                               </ul>
                               <div class="code">
-<pre className="code-wrapper">
-<code class="language theme-dracula" v-pre>import fs from 'fs';
+<pre class="code-wrapper">
+<code class="language theme-dracula" v-pre>
+import fs from 'fs';
 import path from 'path';
 import { create, IPFSHTTPClient } from 'ipfs-http-client';
 import { ethers } from 'ethers';
@@ -575,7 +580,8 @@ async function addPrepaid(fileCid: string, amount: number) {
 async function getOrderState(cid: string) {
     await api.isReadyOrError;
     return await api.query.market.filesV2(cid);
-}</code>
+}
+</code>
 </pre>
                               </div>
                             </div>

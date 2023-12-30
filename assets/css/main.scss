@@ -329,6 +329,10 @@ figure.upor_tab_left_img img {
             align-items: center;
             gap: 5px;
             text-transform: capitalize;
+            transition: all .3s ease-in-out;
+            &:hover{
+                color: #FA8C16;
+            }
             & svg{
                 width: 25px;
             }
