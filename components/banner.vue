@@ -11,9 +11,10 @@
                     <div class="mb-[30px] md:mb-24 px-[2%]">
                         <h1 class="font-normal text-white text-[28px] md:text-[45px] lg:text-[60px] xl:text-[64px] leading-[1.28]">Complete Your Web3 Journey <strong class="font-bold block">with Decentralized Storage</strong></h1>
                     </div>
-                    <div class="w-11/12 sm:w-10/12 md:w-8/12 flex items-center gap-4 md:gap-8 mx-auto justify-center">
-                        <Button class="w-[281px] btn_one">Build on Crust</Button>
-                        <Button class="w-[281px] btn_two">Crust Mainnet</Button>
+                    <div class="w-11/12 sm:w-10/12 md:w-8/12 flex flex-wrap items-center gap-4 md:gap-8 mx-auto justify-center">
+                        <Button class="min-w-[170px] lg:min-w-[210px] btn_one">Build on Crust</Button>
+                        <Button class="min-w-[170px] lg:min-w-[210px] btn_two">Crust Mainnet</Button>
+                        <Button class="min-w-[170px] lg:min-w-[210px] btn_two">EthDA </Button>
                     </div>
                 </div>
             </div>
