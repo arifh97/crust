@@ -439,7 +439,7 @@ async function main() {
                               </ul>
                               <div class="code">
 <pre class="code-wrapper">
-<code class="language theme-dracula" v-pre>import fs from 'fs';
+<code class="lang-js theme-dracula" v-pre>import fs from 'fs';
 import path from 'path';
 import { create, IPFSHTTPClient } from 'ipfs-http-client';
 import { ethers } from 'ethers';
@@ -594,8 +594,9 @@ async function getOrderState(cid: string) {
   </template>
 
 <script>
-import 'prismjs';
-import 'prismjs/components/prism-javascript';
+import { onMounted } from 'vue';
+import Prism from "prismjs";
+import "prismjs/themes/prism.min.css";
 export default {
   name: "products-tab",
   data() {
@@ -654,11 +655,10 @@ export default {
       }
     },
   },
-  mounted() {
-    // Highlight code using Prism.js
-    Prism.highlightAll();
-  },
 };
+onMounted(() => {
+  Prism.highlightAll();
+});
 </script>
 
  
